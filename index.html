@@ -3,14 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
@@ -18,7 +11,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./css/styles.css" />
+    <title>WebStudio</title>
   </head>
   <body>
     <header class="header-link">
@@ -27,29 +28,26 @@
           <a class="logo" href="./index.html"
             >Web<span class="logo-text">Studio</span></a
           >
-          <ul>
-            <li>
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
               <a class="link-header" href="./index.html">Studio</a>
             </li>
-            <li>
+            <li class="header-nav-item">
               <a class="link-header" href="">Portfolio</a>
             </li>
-            <li>
+            <li class="header-nav-item">
               <a class="link-header" href="">Contacts</a>
             </li>
           </ul>
         </nav>
-      </div>
-      <div class="address-cont">
         <address class="address-header">
-          <ul>
-            <li>
+          <ul class="address-list">
+            <li class="address-item">
               <a class="link-address" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-
-            <li>
+            <li class="address-item">
               <a class="link-address" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
@@ -61,8 +59,10 @@
     <main>
       <!-- #region Hero-->
       <section class="hero">
-        <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button type="button" class="hero-btn">Order Service</button>
+        <div class="hero-cont">
+          <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <button type="button" class="hero-btn">Order Service</button>
+        </div>
       </section>
       <!-- #endregion Hero-->
 

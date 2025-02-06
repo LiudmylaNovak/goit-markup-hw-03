@@ -19,6 +19,9 @@ p {
 ul,
 ol {
   list-style-type: none;
+
+  padding-left: 0;
+  margin: 0;
 }
 
 a {
@@ -28,11 +31,35 @@ img {
   display: block;
   max-width: 100%;
 }
+/* #region Header */
 .nav-cont {
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
 }
-.address-cont {
+.nav-link {
   display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.header-nav-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+}
+.address-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
 }
 .logo {
   font-weight: 700;
@@ -42,6 +69,11 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
 }
 .logo-text {
   font-weight: 700;
@@ -53,6 +85,7 @@ img {
   font-family: 'Raleway', sans-serif;
 }
 .link-header {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -66,6 +99,14 @@ img {
 
 .address-header {
   font-style: normal;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+}
+.address-item {
+  display: flex;
 }
 .link-address {
   font-weight: 400;
@@ -73,16 +114,20 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  display: block;
 }
 .link-address:focus,
 .link-address:hover {
   color: #404bbf;
 }
-
+/* #endregion Header */
+/* #region Hero */
 .hero {
   background: #2e2f42;
 }
-
+.hero-cont {
+  display: block;
+}
 .hero-title {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -107,7 +152,8 @@ img {
 .hero-btn:hover {
   background-color: #404bbf;
 }
-
+/* #endregion Hero */
+/* #region Features */
 .features-title {
   font-weight: 500;
   font-size: 20px;
@@ -122,6 +168,8 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* #endregion Features */
+/* #region Team */
 .team {
   background-color: #f4f4fd;
 }
@@ -156,6 +204,8 @@ img {
   text-align: center;
   color: #434455;
 }
+/* #endregion Team */
+/* #region Portfolio */
 .portfolio-title-main {
   font-weight: 700;
   font-size: 36px;
@@ -179,6 +229,8 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* #endregion Portfolio */
+/* #region Footer */
 .footer {
   background: #2e2f42;
 }
@@ -199,3 +251,4 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+/* #endregion Footer */

@@ -260,15 +260,19 @@ img {
 .portfolio-list {
   display: flex;
   align-items: center;
-  row-gap: 24px;
-  column-gap: 48px;
+  row-gap: 48px;
+  column-gap: 24px;
   margin-bottom: 120px;
   flex-wrap: wrap;
 }
 .portfolio-item {
-  display: block;
   max-width: 360px;
   flex-basis: calc((100% - 48px) / 3);
+}
+.portfolio-cont {
+  display: block;
+  margin-right: 16px;
+  margin-left: auto;
 }
 .portfolio-title {
   font-weight: 500;
@@ -276,6 +280,8 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 .portfolio-text {
   font-weight: 400;
@@ -283,6 +289,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-top: 0;
+  margin-bottom: 32px;
 }
 /* #endregion Portfolio */
 /* #region Footer */

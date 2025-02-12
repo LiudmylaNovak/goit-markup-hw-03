@@ -263,9 +263,12 @@ img {
   row-gap: 24px;
   column-gap: 48px;
   margin-bottom: 120px;
+  flex-wrap: wrap;
 }
 .portfolio-item {
+  display: block;
   max-width: 360px;
+  flex-basis: calc((100% - 48px) / 3);
 }
 .portfolio-title {
   font-weight: 500;
@@ -285,6 +288,11 @@ img {
 /* #region Footer */
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
+}
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .logo-footer {
   font-weight: 700;
@@ -302,5 +310,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 /* #endregion Footer */

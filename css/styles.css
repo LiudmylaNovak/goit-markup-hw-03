@@ -285,7 +285,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 .portfolio-text {
@@ -295,7 +294,6 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   margin-top: 0;
-  margin-bottom: 32px;
 }
 /* #endregion Portfolio */
 /* #region Footer */
